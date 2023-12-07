@@ -1,0 +1,98 @@
+body{
+   
+    background-image:  url('Frame 1.png') ;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  button{
+    padding: 8px 16px;
+      color: white;
+      background-color: #026906;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      align-items: center;
+     
+      padding: 10px 10px 10px 10px;
+  }
+  .navbar{
+    margin-left: 30px;
+    margin-top: 10px;
+
+  }
+  .navbar1{
+    margin-left: 50px;
+  }
+  .navbar2{
+    margin-left: 80px;
+  }
+  .navbar3{
+    margin-left: 80px;
+  }
+  .navbar4{
+    margin-left: 110px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .second{
+    background-image: url("Frame 1 (1).png");
+    height:500px;
+    width:1100px;
+   margin-left: 100px;
+   margin-top: 20px;
+   border-radius: 10px;
+   box-sizing: border-box
+   ;
+   background-size: cover;
+   border: 2px solid #026906;
+  }
+  .heading{
+    margin-top: 100px;
+    margin-left: 70px;
+    font-size: 50px;
+  }
+  .description{
+    margin-left: 90px;
+  }
+  .plate{
+    background-image: url("plate2.png");
+    height:300px;
+    width:320px;
+    margin-left: 700px;
+    margin-top: -200px;
+  }
+  .explore{
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: black;
+    color:#026906 ;
+    margin-left: 400px;
+    border-radius: 25px;
+    
+  }
+
+
+/*inspiration*/
+
+.inspiration{
+    background-image: url("Frame\ 1\ \(2\).png");
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+.ins-txt{
+    margin-top: 200px;
+    margin-left: 290px;
+    color: black;
+    line-height: 40px;
+
+}
+.line{
+    margin-top: 200px; 
+}

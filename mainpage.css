@@ -1,0 +1,87 @@
+body{
+   
+    background-image:  url('eugene-golovesov-4ReE1Os3l5E-unsplash.jpg') ;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;}
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #e9e9e9;
+        margin-top: 60px;
+        margin-left: 500px;
+        height:30px;
+        width: 250px;
+        border-radius: 25px; 
+        padding: 10px;
+      }
+      .topnav input[type=text] {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+      }
+      .topnav input[type=text] {
+        border: 1px solid #ccc;
+      }   
+  .griditem{
+    display: flex;
+    height: 200px;
+    width: 400px;
+    background-color: white;
+  }
+  .dish-list{
+    background-image: url();
+    background-size: cover;
+  }           
+  .box1{
+    width: 250px;
+    height:300px;
+    background-color: aliceblue;
+    margin-left:500px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: #333;
+  }
+  #dish-list{
+    width: 250px;
+    height:180px;
+    background-color: rgb(32, 83, 128);
+ 
+    background-size: cover;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: #333;
+  }
+
+
+
+
+
+
+
+
+#img{
+    width: 250px;
+    height:180px;  
+    border-radius: 20px;
+}
+#txt{
+    color: red;
+    margin-left: px;
+}
+#result{
+    background-color: bisque;
+    color: black;
+    height: 300px;
+    width: 200px;
+}

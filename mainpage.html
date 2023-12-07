@@ -1,0 +1,52 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="mainpage.css">
+<body>
+    <header>
+        <h1>search Meals</h1>
+        
+      </header>
+      <form>
+        
+        <input type="text" id="topnav" placeholder="Search Recipie">
+        <button type="text"  class="btn" id="submit">Search</button>
+        </form>
+        <h1 class="random">Random Meals</h1>
+        <div class="box1">
+          <div  id="dish-list"></div>
+        </div>
+        
+        <h1 class="random">searched Meals</h1>
+<div class="grid-elements">
+    <div id="results"></div>
+    <div id="results2" onclick="openModal()" style="cursor: pointer; "><h4 style="margin-left: 50px;  margin-top: 100px;" >click  to view recipe </h4></div>
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+          <span  onclick="closeModal()" style="cursor: pointer; color: black; " > close </span>
+          <h2>Next Page</h2>
+          <p>This is the content of the next page.</p>
+        </div>
+      </div>
+    
+   
+      
+ 
+
+</div>
+
+
+
+<script src="script.js"></script>
+  
+</body>
+
+</html>
